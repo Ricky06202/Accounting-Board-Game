@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DadonumeroTextScript : MonoBehaviour
+public class DadoSimboloTextScript : MonoBehaviour
 {
     Text text;
-    public static int LetraDado;
+    public static int simboloDado;
 
     // Para inicializar
     void Start (){
@@ -14,6 +14,6 @@ public class DadonumeroTextScript : MonoBehaviour
     }
     
     void Update (){
-        text.text = LetraDado.ToString ();
+        text.text = simboloDado.ToString ();
     }
 }

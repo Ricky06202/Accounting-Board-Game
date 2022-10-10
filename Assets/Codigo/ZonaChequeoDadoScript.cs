@@ -15,22 +15,22 @@ public class ZonaChequeoDadoScript : MonoBehaviour
         if (VelocidadDado.x == 0f && VelocidadDado.y == 0f && VelocidadDado.z== 0f){
             switch(col.gameObject.name){
                 case "Side1":
-                   DadonumeroTextScript.numeroDado=6;
+                   DadonumeroTextScript.numeroDado= R+;
                    break;
                 case "Side2":
-                   DadonumeroTextScript.numeroDado=5;
+                   DadonumeroTextScript.numeroDado= P.N;
                    break;
                 case "Side3":
-                    DadonumeroTextScript.numeroDado=4;
+                    DadonumeroTextScript.numeroDado=P;
                    break;
                 case "Side4": 
-                    DadonumeroTextScript.numeroDado=3;
+                    DadonumeroTextScript.numeroDado=A;
                    break;               
                 case "Side5":
-                   DadonumeroTextScript.numeroDado=2;
+                   DadonumeroTextScript.numeroDado=R-;
                    break;
                 case "Side6":
-                    DadonumeroTextScript.numeroDado=1;
+                    DadonumeroTextScript.numeroDado=#;
                    break;
             }
         }
